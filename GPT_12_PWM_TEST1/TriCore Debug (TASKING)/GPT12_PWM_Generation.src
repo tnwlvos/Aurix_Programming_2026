@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc8844a --dep-file=GPT12_PWM_Generation.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1 -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Configurations -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Infra -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Service -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12 -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o GPT12_PWM_Generation.src ../GPT12_PWM_Generation.c"
+	.compiler_invocation	"ctc -f cc31156a --dep-file=GPT12_PWM_Generation.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1 -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Configurations -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Infra -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Service -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12 -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Aurix\\\\TC275\\\\GPT_12_PWM_TEST1\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o GPT12_PWM_Generation.src ../GPT12_PWM_Generation.c"
 	.compiler_name		"ctc"
 	;source	'../GPT12_PWM_Generation.c'
 
@@ -328,19 +328,19 @@ __Set_Gpt12PWM_Duty_function_end:
 .L32:
 	; End of function
 	
-	.sdecl	'.data.GPT12_PWM_Generation.fTimer',data,cluster('fTimer')
-	.sect	'.data.GPT12_PWM_Generation.fTimer'
-	.global	fTimer
-	.align	2
-fTimer:	.type	object
-	.size	fTimer,4
-	.space	4
 	.sdecl	'.data.GPT12_PWM_Generation.moduleFreq',data,cluster('moduleFreq')
 	.sect	'.data.GPT12_PWM_Generation.moduleFreq'
 	.global	moduleFreq
 	.align	2
 moduleFreq:	.type	object
 	.size	moduleFreq,4
+	.space	4
+	.sdecl	'.data.GPT12_PWM_Generation.fTimer',data,cluster('fTimer')
+	.sect	'.data.GPT12_PWM_Generation.fTimer'
+	.global	fTimer
+	.align	2
+fTimer:	.type	object
+	.size	fTimer,4
 	.space	4
 	.calls	'initGpt12PWM','__f_ftous'
 	.calls	'Set_Gpt12PWM_Duty','__f_ftous'
@@ -14011,7 +14011,7 @@ moduleFreq:	.type	object
 	.half	.L277-.L181
 	.byte	1,4,1,5,1,9
 	.half	.L182-.L277
-	.byte	3,196,119,1,7,9
+	.byte	3,197,119,1,7,9
 	.half	.L27-.L182
 	.byte	0,1,1
 .L274:
@@ -14033,18 +14033,18 @@ moduleFreq:	.type	object
 	.byte	2
 	.word	.L14
 	.byte	3
-	.byte	'Set_Gpt12PWM_Duty',0,1,119,6,1,1,1
+	.byte	'Set_Gpt12PWM_Duty',0,1,121,6,1,1,1
 	.word	.L13,.L188,.L12
 	.byte	4
-	.byte	'pwm_duty',0,1,119,30
+	.byte	'pwm_duty',0,1,121,30
 	.word	.L189,.L190
 	.byte	5
 	.word	.L13,.L188
 	.byte	6
-	.byte	'dutyUpTime',0,1,120,12
+	.byte	'dutyUpTime',0,1,123,12
 	.word	.L81,.L191
 	.byte	6
-	.byte	'dutyDownTime',0,1,121,12
+	.byte	'dutyDownTime',0,1,124,12
 	.word	.L81,.L192
 	.byte	7
 	.word	.L108,.L193,.L194
@@ -14086,9 +14086,9 @@ moduleFreq:	.type	object
 .L281:
 	.byte	5,6,7,0,5,2
 	.word	.L13
-	.byte	3,246,0,1,5,26,9
+	.byte	3,248,0,1,5,26,9
 	.half	.L226-.L13
-	.byte	3,1,1,5,36,9
+	.byte	3,2,1,5,36,9
 	.half	.L282-.L226
 	.byte	1,5,47,9
 	.half	.L283-.L282
@@ -14096,9 +14096,9 @@ moduleFreq:	.type	object
 	.half	.L284-.L283
 	.byte	1,5,33,9
 	.half	.L285-.L284
-	.byte	1,5,57,9
+	.byte	1,5,58,9
 	.half	.L286-.L285
-	.byte	1,5,55,9
+	.byte	1,5,56,9
 	.half	.L287-.L286
 	.byte	1,5,23,9
 	.half	.L227-.L287
@@ -14106,27 +14106,27 @@ moduleFreq:	.type	object
 	.half	.L228-.L227
 	.byte	3,1,1,5,38,9
 	.half	.L288-.L228
-	.byte	1,5,41,9
+	.byte	1,5,43,9
 	.half	.L289-.L288
-	.byte	1,5,50,9
+	.byte	1,5,54,9
 	.half	.L290-.L289
-	.byte	1,5,49,9
+	.byte	1,5,52,9
 	.half	.L291-.L290
-	.byte	1,5,39,9
+	.byte	1,5,40,9
 	.half	.L292-.L291
 	.byte	1,5,35,9
 	.half	.L293-.L292
-	.byte	1,5,60,9
+	.byte	1,5,66,9
 	.half	.L294-.L293
-	.byte	1,5,59,9
+	.byte	1,5,64,9
 	.half	.L295-.L294
 	.byte	1,4,2,5,17,9
 	.half	.L193-.L295
-	.byte	3,154,8,1,9
+	.byte	3,151,8,1,9
 	.half	.L194-.L193
 	.byte	3,202,1,1,4,1,5,1,9
 	.half	.L197-.L194
-	.byte	3,159,118,1,7,9
+	.byte	3,162,118,1,7,9
 	.half	.L32-.L197
 	.byte	0,1,1
 .L279:
@@ -14148,7 +14148,7 @@ moduleFreq:	.type	object
 	.byte	2
 	.word	.L14
 	.byte	3
-	.byte	'interruptGpt12',0,1,57,6,1,1,1
+	.byte	'interruptGpt12',0,1,58,6,1,1,1
 	.word	.L7,.L200,.L6
 	.byte	4
 	.word	.L7,.L200
@@ -14210,19 +14210,19 @@ moduleFreq:	.type	object
 .L299:
 	.byte	5,6,7,0,5,2
 	.word	.L7
-	.byte	3,56,1,5,23,9
+	.byte	3,57,1,5,23,9
 	.half	.L300-.L7
 	.byte	3,3,1,4,2,5,41,9
 	.half	.L202-.L300
-	.byte	3,154,4,1,5,26,9
+	.byte	3,153,4,1,5,26,9
 	.half	.L210-.L202
 	.byte	3,122,1,5,17,9
 	.half	.L301-.L210
 	.byte	1,4,1,5,23,9
 	.half	.L203-.L301
-	.byte	3,237,123,1,4,2,5,41,9
+	.byte	3,238,123,1,4,2,5,41,9
 	.half	.L218-.L203
-	.byte	3,153,4,1,5,26,9
+	.byte	3,152,4,1,5,26,9
 	.half	.L220-.L218
 	.byte	3,122,1,5,17,9
 	.half	.L302-.L220
@@ -14236,34 +14236,12 @@ moduleFreq:	.type	object
 	.sect	'.debug_ranges'
 .L36:
 	.word	-1,.L7,0,.L37-.L7,0,0
-	.sdecl	'.debug_info',debug,cluster('fTimer')
-	.sect	'.debug_info'
-.L38:
-	.word	198
-	.half	3
-	.word	.L39
-	.byte	4,1
-	.byte	'../GPT12_PWM_Generation.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Aurix\\TC275\\GPT_12_PWM_TEST1\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L14
-	.byte	3
-	.byte	'fTimer',0,15,48,9
-	.word	.L221
-	.byte	1,5,3
-	.word	fTimer
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('fTimer')
-	.sect	'.debug_abbrev'
-.L39:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
 	.sdecl	'.debug_info',debug,cluster('moduleFreq')
 	.sect	'.debug_info'
-.L40:
+.L38:
 	.word	202
 	.half	3
-	.word	.L41
+	.word	.L39
 	.byte	4,1
 	.byte	'../GPT12_PWM_Generation.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
@@ -14276,6 +14254,28 @@ moduleFreq:	.type	object
 	.word	moduleFreq
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('moduleFreq')
+	.sect	'.debug_abbrev'
+.L39:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('fTimer')
+	.sect	'.debug_info'
+.L40:
+	.word	198
+	.half	3
+	.word	.L41
+	.byte	4,1
+	.byte	'../GPT12_PWM_Generation.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Aurix\\TC275\\GPT_12_PWM_TEST1\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L14
+	.byte	3
+	.byte	'fTimer',0,15,50,9
+	.word	.L221
+	.byte	1,5,3
+	.word	fTimer
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('fTimer')
 	.sect	'.debug_abbrev'
 .L41:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9

@@ -11874,3 +11874,606 @@ AURIXFlasher Exit Status: Pass
 
 !ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:13:17.703
 !MESSAGE Build completed for project: GPT_12_PWM_TEST1. Success status: true
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:26:59.029
+!MESSAGE Build started for project: GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:10.938
+!MESSAGE Build started for project: GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:10.939
+!MESSAGE Build completed for project: GPT_12_PWM_TEST1. Success status: true
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:11.972
+!MESSAGE Build started for project: GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:11.973
+!MESSAGE Build completed for project: GPT_12_PWM_TEST1. Success status: true
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:14.697
+!MESSAGE Build started for project: GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:14.697
+!MESSAGE Build completed for project: GPT_12_PWM_TEST1. Success status: true
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:15.699
+!MESSAGE Build started for project: GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:15.699
+!MESSAGE Build completed for project: GPT_12_PWM_TEST1. Success status: true
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-01-20 16:28:18.776
+!MESSAGE Indexed 'GPT_12_PWM_TEST1' (77 sources, 455 headers) in 7.94 sec: 97,069 declarations; 77,367 references; 12 unresolved inclusions; 13,442 syntax errors; 1,913 unresolved names (1.1%)
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:18.833
+!MESSAGE Build started for project: GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:18.833
+!MESSAGE Build completed for project: GPT_12_PWM_TEST1. Success status: true
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2026-01-20 16:28:22.078
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project GPT_12_PWM_TEST1 boosted in 783 milliseconds. (full boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2026-01-20 16:28:22.107
+!MESSAGE Include paths were discovered in 27 milliseconds.
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:25.684
+!MESSAGE Build completed for project: GPT_12_PWM_TEST1. Success status: true
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2026-01-20 16:28:36.151
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project GPT_12_PWM_TEST1 boosted in 182 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2026-01-20 16:28:36.183
+!MESSAGE Include paths were discovered in 28 milliseconds.
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:36.989
+!MESSAGE Build completed for project: GPT_12_PWM_TEST1. Success status: true
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:36.992
+!MESSAGE Trying to locate lsmcdd in bundle 38, res/lsmcdd.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:36.992
+!MESSAGE Trying to start debugger from /C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/lsmcdd.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:37.213
+!MESSAGE lsmcdd done with command: [/C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/lsmcdd.exe]
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:37.214
+!MESSAGE DAS JDS AURIX LITE KIT V1.1 LK7Q5VDN is not conncted when start debug
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:40.911
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.035
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.036
+!MESSAGE Trying to locate llvm-nm in bundle 38, res/llvm-nm.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.036
+!MESSAGE Trying to start llvm-nm from /C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/llvm-nm.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.062
+!MESSAGE llvm-nm done with command: [/C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/llvm-nm.exe, C:\Aurix\TC275\GPT_12_PWM_TEST1\TriCore Debug (TASKING)\GPT_12_PWM_TEST1.elf]
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.063
+!MESSAGE Trying to locate lsmcdd in bundle 38, res/lsmcdd.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.064
+!MESSAGE Trying to start debugger from /C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/lsmcdd.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.332
+!MESSAGE lsmcdd done with command: [/C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/lsmcdd.exe]
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.358
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.359
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.360
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.360
+!MESSAGE absIpath: C:\Aurix\TC275\GPT_12_PWM_TEST1\TriCore Debug (TASKING)\GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.360
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.360
+!MESSAGE absIpath: C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.361
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.363
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.363
+!MESSAGE absIpath: ${workspace_loc}/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.363
+!MESSAGE project: P/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.363
+!MESSAGE projectpath: C:/Aurix/TC275/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.364
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.364
+!MESSAGE absIpath: C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.364
+!MESSAGE Trying to locate llvm-nm in bundle 38, res/llvm-nm.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.365
+!MESSAGE Trying to start llvm-nm from /C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/llvm-nm.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.386
+!MESSAGE llvm-nm done with command: [/C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/llvm-nm.exe, C:\Aurix\TC275\GPT_12_PWM_TEST1\TriCore Debug (TASKING)\GPT_12_PWM_TEST1.elf]
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.387
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.388
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.388
+!MESSAGE absIpath: C:\Aurix\TC275\GPT_12_PWM_TEST1\TriCore Debug (TASKING)\GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.388
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.388
+!MESSAGE absIpath: C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.389
+!MESSAGE Trying to locate lsmcdd in bundle 38, res/lsmcdd.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.389
+!MESSAGE Trying to start debugger from /C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/lsmcdd.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.520
+!MESSAGE lsmcdd done with command: [/C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/lsmcdd.exe]
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.521
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.521
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.523
+!MESSAGE absIpath: ${workspace_loc}/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.523
+!MESSAGE project: P/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.524
+!MESSAGE projectpath: C:/Aurix/TC275/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.524
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.524
+!MESSAGE absIpath: C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.529
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.530
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.530
+!MESSAGE absIpath: ${workspace_loc}/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.531
+!MESSAGE project: P/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.531
+!MESSAGE projectpath: C:/Aurix/TC275/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.531
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.532
+!MESSAGE absIpath: C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.534
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.535
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.535
+!MESSAGE absIpath: ${workspace_loc}/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.535
+!MESSAGE project: P/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.536
+!MESSAGE projectpath: C:/Aurix/TC275/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.536
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.536
+!MESSAGE absIpath: C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.537
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.537
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.538
+!MESSAGE absIpath: ${workspace_loc}/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.538
+!MESSAGE project: P/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.539
+!MESSAGE projectpath: C:/Aurix/TC275/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.539
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.539
+!MESSAGE absIpath: C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.540
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.541
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.541
+!MESSAGE absIpath: ${workspace_loc}/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.542
+!MESSAGE project: P/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.542
+!MESSAGE projectpath: C:/Aurix/TC275/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.542
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.542
+!MESSAGE absIpath: C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.697
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.697
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.697
+!MESSAGE absIpath: ${workspace_loc}/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.698
+!MESSAGE project: P/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.698
+!MESSAGE projectpath: C:/Aurix/TC275/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.698
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:41.698
+!MESSAGE absIpath: C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.580
+!MESSAGE Trying to locate lsmcdd in bundle 38, res/lsmcdd.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.580
+!MESSAGE Trying to start debugger from /C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/lsmcdd.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.891
+!MESSAGE lsmcdd done with command: [/C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/lsmcdd.exe]
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.892
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.892
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.893
+!MESSAGE absIpath: ${workspace_loc}/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.893
+!MESSAGE project: P/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.895
+!MESSAGE projectpath: C:/Aurix/TC275/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.895
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.896
+!MESSAGE absIpath: C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.904
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.904
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.905
+!MESSAGE absIpath: ${workspace_loc}/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.906
+!MESSAGE project: P/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.906
+!MESSAGE projectpath: C:/Aurix/TC275/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.907
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.907
+!MESSAGE absIpath: C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.917
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.917
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.917
+!MESSAGE absIpath: ${workspace_loc}/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.917
+!MESSAGE project: P/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.918
+!MESSAGE projectpath: C:/Aurix/TC275/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.918
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:43.918
+!MESSAGE absIpath: C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:46.005
+!MESSAGE ex reged: org.eclipse.core.internal.registry.ExtensionRegistry@558f4bb3
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:46.006
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:46.007
+!MESSAGE absIpath: ${workspace_loc}/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:46.007
+!MESSAGE project: P/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:46.008
+!MESSAGE projectpath: C:/Aurix/TC275/GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:46.008
+!MESSAGE wp_path: C:/Aurix/TC275
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:46.008
+!MESSAGE absIpath: C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:46.157
+!MESSAGE Build started for project: GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:46.158
+!MESSAGE Build completed for project: GPT_12_PWM_TEST1. Success status: true
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2026-01-20 16:28:46.293
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project GPT_12_PWM_TEST1 boosted in 124 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2026-01-20 16:28:46.318
+!MESSAGE Include paths were discovered in 23 milliseconds.
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:47.167
+!MESSAGE Build completed for project: GPT_12_PWM_TEST1. Success status: true
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:47.169
+!MESSAGE Trying to locate lsmcdd in bundle 38, res/lsmcdd.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:47.170
+!MESSAGE Trying to start debugger from /C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/lsmcdd.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:47.382
+!MESSAGE lsmcdd done with command: [/C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/lsmcdd.exe]
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:47.385
+!MESSAGE Trying to locate aurix-flasher in bundle 38, res/aurixflasher/AURIXFlasher.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:47.385
+!MESSAGE Trying to start aurix-flasher from /C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/aurixflasher/AURIXFlasher.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:47.385
+!MESSAGE First attempt flash command: [C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/aurixflasher/AURIXFlasher.exe, -gui, off, -elf, C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf, -start, off, -ver, on, -id, 0]
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:48.320
+!MESSAGE Build started for project: GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:48.321
+!MESSAGE Build completed for project: GPT_12_PWM_TEST1. Success status: true
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:48.628
+!MESSAGE Flasher out: AURIX Flasher Software Tool 3.0.14.0, built on 2025-11-26 오후 6:00:40
+::Connected to device... [TC2x] TC27x 
+::Loading  ELF file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory ..........(Pass)
+::Verifying Flash memory ..........
+::Flash memory matches expected value (Pass)
+Overall time: 1000 ms
+AURIXFlasher Exit Status: Pass
+
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:48.628
+!MESSAGE Trying to locate debugger in bundle 38, res/aurix-debugger.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:48.629
+!MESSAGE Trying to start debugger from /C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/aurix-debugger.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:48.629
+!MESSAGE Trying to locate llvm-nm in bundle 38, res/llvm-nm.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:48.630
+!MESSAGE Trying to start llvm-nm from /C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/llvm-nm.exe
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:48.651
+!MESSAGE llvm-nm done with command: [/C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/llvm-nm.exe, C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf]
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:48.652
+!MESSAGE Agent start with command: [/C:/Infineon/AURIX-Studio-1.10.28/plugins/com.rt.hightec.tcf.agent.launcher_1.0.53/res/aurix-debugger.exe, -s, TCP:127.0.0.1:58332, -p, DAS JDS AURIX LITE KIT V1.1 LK7WL83O, -e, core0_main, -b, 0, -r, C:/Infineon/AURIX-Studio-1.10.28/build_system/bundled-artefacts-repo/svd/tc27xdpd/1.1-2/device.svd, -K, C:/Aurix/TC275/GPT_12_PWM_TEST1, -f]
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:48.656
+!MESSAGE SID: a496eae8-985e-42fb-8bef-39b657ab604b DP: 17984
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:48.657
+!MESSAGE Debugger has been started, continuing with the rest of the application
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.659
+!MESSAGE Writing launch config
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.665
+!MESSAGE GPT_12_PWM_TEST1 TriCore Debug (TASKING)
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.674
+!MESSAGE Obtained project name GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.674
+!MESSAGE Obtained flashware file ${workspace_loc}/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.675
+!MESSAGE Symbol file found at C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.675
+!MESSAGE Getting node to configure symbols
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.677
+!MESSAGE Will load execution contexts and connected memory maps
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.678
+!MESSAGE Found new debug context: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.679
+!MESSAGE Found new debug context: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.680
+!MESSAGE Found new debug context: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.680
+!MESSAGE Found new debug context: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.680
+!MESSAGE Found new debug context: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.681
+!MESSAGE Found new debug context: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.681
+!MESSAGE Found new debug context: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.681
+!MESSAGE Found new debug context: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.682
+!MESSAGE Found new debug context: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.683
+!MESSAGE Found new debug context: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.684
+!MESSAGE Found new debug context: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.684
+!MESSAGE Found new debug context: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.685
+!MESSAGE Adding mapping for id: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.685
+!MESSAGE Mapping: {FileName=C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf, ID=/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P, Flags=0, UUID=ad8c17c4-6ecb-49af-8e0a-55bd7882e4fd}
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.685
+!MESSAGE Adding mapping for id: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.685
+!MESSAGE Mapping: {FileName=C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf, ID=/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P, Flags=0, UUID=23db65d1-53e4-4fd8-81c5-da644363454a}
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.686
+!MESSAGE Adding mapping for id: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.686
+!MESSAGE Mapping: {FileName=C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf, ID=/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P, Flags=0, UUID=f2d2526a-c8a5-4106-a412-57c6f88ea4ad}
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.686
+!MESSAGE Adding mapping for id: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.686
+!MESSAGE Mapping: {FileName=C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf, ID=/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E, Flags=0, UUID=88b09f62-1dc2-40c2-8b5a-1aa37d3f3a5e}
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.687
+!MESSAGE Adding mapping for id: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.687
+!MESSAGE Mapping: {FileName=C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf, ID=/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P, Flags=0, UUID=6de497b0-5a8c-4491-94fa-c7a0f0eedb55}
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.687
+!MESSAGE Adding mapping for id: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.687
+!MESSAGE Mapping: {FileName=C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf, ID=/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E, Flags=0, UUID=3c342c4f-fa0d-4cb0-887a-93cca7e29827}
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.688
+!MESSAGE Adding mapping for id: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.688
+!MESSAGE Mapping: {FileName=C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf, ID=/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P, Flags=0, UUID=4c1b81ba-ffd3-47eb-9c3c-14aba8c57aaf}
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.688
+!MESSAGE Adding mapping for id: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.689
+!MESSAGE Mapping: {FileName=C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf, ID=/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E, Flags=0, UUID=9645a1fd-5934-4e7e-9f9d-d485d50c33b1}
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.689
+!MESSAGE Adding mapping for id: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.689
+!MESSAGE Mapping: {FileName=C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf, ID=/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P, Flags=0, UUID=0685cedc-46c5-4e27-851d-6582e7dd4ae9}
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.690
+!MESSAGE Adding mapping for id: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.690
+!MESSAGE Mapping: {FileName=C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf, ID=/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P, Flags=0, UUID=7d2ca8bc-a75c-4ad2-8e94-021e8a9952c2}
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.691
+!MESSAGE Adding mapping for id: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.691
+!MESSAGE Mapping: {FileName=C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf, ID=/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E, Flags=0, UUID=56642de6-7067-4442-9d6d-8bac49e727d3}
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.691
+!MESSAGE Adding mapping for id: /DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.691
+!MESSAGE Mapping: {FileName=C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf, ID=/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P, Flags=0, UUID=bcab77c9-cff9-464a-a549-231db77e28a7}
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.693
+!MESSAGE Writing mapping to launch config: [{"FileName":"C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf","ID":"/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P","Flags":0,"UUID":"ad8c17c4-6ecb-49af-8e0a-55bd7882e4fd"},{"FileName":"C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf","ID":"/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P","Flags":0,"UUID":"23db65d1-53e4-4fd8-81c5-da644363454a"},{"FileName":"C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf","ID":"/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P","Flags":0,"UUID":"f2d2526a-c8a5-4106-a412-57c6f88ea4ad"},{"FileName":"C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf","ID":"/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E","Flags":0,"UUID":"88b09f62-1dc2-40c2-8b5a-1aa37d3f3a5e"},{"FileName":"C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf","ID":"/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P","Flags":0,"UUID":"6de497b0-5a8c-4491-94fa-c7a0f0eedb55"},{"FileName":"C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf","ID":"/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E","Flags":0,"UUID":"3c342c4f-fa0d-4cb0-887a-93cca7e29827"},{"FileName":"C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf","ID":"/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P","Flags":0,"UUID":"4c1b81ba-ffd3-47eb-9c3c-14aba8c57aaf"},{"FileName":"C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf","ID":"/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E","Flags":0,"UUID":"9645a1fd-5934-4e7e-9f9d-d485d50c33b1"},{"FileName":"C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf","ID":"/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P","Flags":0,"UUID":"0685cedc-46c5-4e27-851d-6582e7dd4ae9"},{"FileName":"C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf","ID":"/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P","Flags":0,"UUID":"7d2ca8bc-a75c-4ad2-8e94-021e8a9952c2"},{"FileName":"C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf","ID":"/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E","Flags":0,"UUID":"56642de6-7067-4442-9d6d-8bac49e727d3"},{"FileName":"C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf","ID":"/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P","Flags":0,"UUID":"bcab77c9-cff9-464a-a549-231db77e28a7"}]
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.766
+!MESSAGE Build started for project: GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:52.766
+!MESSAGE Build completed for project: GPT_12_PWM_TEST1. Success status: true
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:55.384
+!MESSAGE Build started for project: GPT_12_PWM_TEST1
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:28:55.385
+!MESSAGE Build completed for project: GPT_12_PWM_TEST1. Success status: true
+
+!ENTRY com.rt.hightec.tcf.agent.launcher 4 4 2026-01-20 16:29:16.195
+!MESSAGE Debugger process terminated.

@@ -24,19 +24,21 @@
  * CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
  * IN THE SOFTWARE.
  *********************************************************************************************************************/
-
+#include "Ifx_Types.h"
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
-#include "IfxPort.h"
-#include "Bsp.h"
 #include "GPT12_PWM_Generation.h"
+#include "Bsp.h"
 #include "ADC_Single_Channel.h"
+
 #define WAIT_TIME_10                50
+
 IfxCpu_syncEvent cpuSyncEvent = 0;
-uint8 adc_value_to_pwm = 0;
+
 void core0_main(void)
 {
     uint8 set_pwm_value = 0;
+
     IfxCpu_enableInterrupts();
     
     /* !!WATCHDOG0 AND SAFETY WATCHDOG ARE DISABLED HERE!!
@@ -48,15 +50,19 @@ void core0_main(void)
     /* Wait for CPU sync event */
     IfxCpu_emitEvent(&cpuSyncEvent);
     IfxCpu_waitEvent(&cpuSyncEvent, 1);
-    initGpt12PWM();
+    initGpt12PWM();                                    /* Function to initialize the GPT12 module and the LED  */
     runGpt12PWM();
+
     vadcBackgroundScanInit();
     vadcBackgroundScanRun();
+
     while(1)
     {
+        advalue_to_pwm_conversion();
+        set_pwm_value = adc_value_to_pwm;
         Set_Gpt12PWM_Duty(set_pwm_value);
-        waitTime(IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME_10));
+        waitTime(IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME_10));  /* Wait 50 milliseconds */
         set_pwm_value++;
-        if(set_pwm_value==100)set_pwm_value=0;
+        if(set_pwm_value == 100) set_pwm_value = 0;
     }
 }

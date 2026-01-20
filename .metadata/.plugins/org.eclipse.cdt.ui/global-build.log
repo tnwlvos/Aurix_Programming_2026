@@ -1818,3 +1818,603 @@ ROM: 0x2553 (9555) = code: 0x239e (9118) + romdata: 0x1b5 (437)
 RAM: 0x9521 (38177) = data + bss
 Finished building: GPT_12_PWM_TEST1.siz
  
+Build started...
+16:21:59 **** Incremental Build of configuration TriCore Debug (TASKING) for project GPT_12_PWM_TEST1 ****
+amk -j18 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="ADC_Single_Channel.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "ADC_Single_Channel.src" "../ADC_Single_Channel.c"
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+cctc -cs --dep-file="Cpu1_Main.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu1_Main.src" "../Cpu1_Main.c"
+cctc -cs --dep-file="Cpu2_Main.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu2_Main.src" "../Cpu2_Main.c"
+cctc -cs --dep-file="GPT12_PWM_Generation.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "GPT12_PWM_Generation.src" "../GPT12_PWM_Generation.c"
+ctc E219: ["../ADC_Single_Channel.c" 31/1] cannot open #include file "IfxVadc_Adc.h"
+ctc E219: ["..\ADC_Single_Channel.h" 34/1] cannot open #include file "IfxVadc_Adc.h"
+ctc E208: ["..\ADC_Single_Channel.h" 41/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token ";" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token "<basic-type>" inserted before "vadc"
+amk E452: ["subdir.mk" 37/0] target 'ADC_Single_Channel.src' returned exit code 1
+ctc E208: ["..\ADC_Single_Channel.h" 42/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Group"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token ";" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token "<basic-type>" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 43/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_ChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token ";" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token "<basic-type>" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 44/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Channel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token ";" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token "<basic-type>" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 55/14] syntax error - token ";" inserted before "adc_Value_to_pwm"
+ctc I805: ["..\ADC_Single_Channel.h" 55/1] start of current external declaration
+ctc E208: ["../ADC_Single_Channel.c" 49/7] syntax error - token ";" inserted before "adc_value_to_pwm"
+ctc I805: ["../ADC_Single_Channel.c" 49/1] start of current external declaration
+ctc E208: ["../ADC_Single_Channel.c" 68/18] syntax error - token ";" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 99/24] syntax error - token ";" inserted before "adcConfig"
+ctc E208: ["../ADC_Single_Channel.c" 109/29] syntax error - token ";" inserted before "adcGroupConfig"
+ctc E208: ["../ADC_Single_Channel.c" 137/74] syntax error - token ";" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 138/83] syntax error - token ";" inserted before "5"
+ctc E208: ["../ADC_Single_Channel.c" 147/60] syntax error - token ")" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 147/60] syntax error - token "," inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 148/60] syntax error - token ")" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 148/60] syntax error - token ";" inserted before "0"
+ctc E207: ["../ADC_Single_Channel.c" 148/70] syntax error - token ")" deleted
+ctc E207: ["../ADC_Single_Channel.c" 148/71] syntax error - token ")" deleted
+ctc E208: ["../ADC_Single_Channel.c" 156/18] syntax error - token ";" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 165/41] syntax error - token ")" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 165/41] syntax error - token "," inserted before "conversionResult"
+ctc E207: ["../ADC_Single_Channel.c" 165/78] syntax error - token ")" deleted
+31 errors, 0 warnings
+ctc E219: ["..\ADC_Single_Channel.h" 34/1] cannot open #include file "IfxVadc_Adc.h"
+ctc E208: ["..\ADC_Single_Channel.h" 41/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token ";" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token "<basic-type>" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 42/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Group"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token ";" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token "<basic-type>" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 43/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_ChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token ";" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token "<basic-type>" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 44/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Channel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token ";" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token "<basic-type>" inserted before "adcChannel"
+13 errors, 0 warnings
+amk E452: ["subdir.mk" 41/0] target 'Cpu0_Main.src' returned exit code 1
+amk E451: make stopped
+"amk -j18 all" terminated with exit code 1. Build might be incomplete.
+Build started...
+16:22:36 **** Incremental Build of configuration TriCore Debug (TASKING) for project GPT_12_PWM_TEST1 ****
+amk -j18 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="ADC_Single_Channel.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "ADC_Single_Channel.src" "../ADC_Single_Channel.c"
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu1_Main.o" "Cpu1_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu2_Main.o" "Cpu2_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "GPT12_PWM_Generation.o" "GPT12_PWM_Generation.src"
+ctc E219: ["../ADC_Single_Channel.c" 31/1] cannot open #include file "IfxVadc_Adc.h"
+ctc E219: ["..\ADC_Single_Channel.h" 34/1] cannot open #include file "IfxVadc_Adc.h"
+ctc E208: ["..\ADC_Single_Channel.h" 41/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token ";" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token "<basic-type>" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 42/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Group"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token ";" inserted before "adcGroup"
+amk E452: ["subdir.mk" 37/0] target 'ADC_Single_Channel.src' returned exit code 1
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token "<basic-type>" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 43/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_ChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token ";" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token "<basic-type>" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 44/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Channel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token ";" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token "<basic-type>" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 55/14] syntax error - token ";" inserted before "adc_Value_to_pwm"
+ctc I805: ["..\ADC_Single_Channel.h" 55/1] start of current external declaration
+ctc E208: ["../ADC_Single_Channel.c" 50/7] syntax error - token ";" inserted before "adc_value_to_pwm"
+ctc I805: ["../ADC_Single_Channel.c" 50/1] start of current external declaration
+ctc E208: ["../ADC_Single_Channel.c" 70/18] syntax error - token ";" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 101/24] syntax error - token ";" inserted before "adcConfig"
+ctc E208: ["../ADC_Single_Channel.c" 111/29] syntax error - token ";" inserted before "adcGroupConfig"
+ctc E208: ["../ADC_Single_Channel.c" 139/74] syntax error - token ";" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 140/83] syntax error - token ";" inserted before "5"
+ctc E208: ["../ADC_Single_Channel.c" 149/60] syntax error - token ")" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 149/60] syntax error - token "," inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 150/60] syntax error - token ")" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 150/60] syntax error - token ";" inserted before "0"
+ctc E207: ["../ADC_Single_Channel.c" 150/70] syntax error - token ")" deleted
+ctc E207: ["../ADC_Single_Channel.c" 150/71] syntax error - token ")" deleted
+ctc E208: ["../ADC_Single_Channel.c" 159/18] syntax error - token ";" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 168/41] syntax error - token ")" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 168/41] syntax error - token "," inserted before "conversionResult"
+ctc E207: ["../ADC_Single_Channel.c" 168/80] syntax error - token ")" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/1] syntax error - token "\xec" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/2] syntax error - token "\x84" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/3] syntax error - token "\xa4" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/4] syntax error - token "\xeb" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/5] syntax error - token "\xaa" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/6] syntax error - token "\x85" deleted
+37 errors, 0 warnings
+ctc E219: ["..\ADC_Single_Channel.h" 34/1] cannot open #include file "IfxVadc_Adc.h"
+ctc E208: ["..\ADC_Single_Channel.h" 41/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token ";" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token "<basic-type>" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 42/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Group"
+amk E452: ["subdir.mk" 41/0] target 'Cpu0_Main.src' returned exit code 1
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token ";" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token "<basic-type>" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 43/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_ChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token ";" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token "<basic-type>" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 44/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Channel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token ";" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token "<basic-type>" inserted before "adcChannel"
+13 errors, 0 warnings
+amk E451: make stopped
+"amk -j18 all" terminated with exit code 1. Build might be incomplete.
+Build started...
+16:22:52 **** Incremental Build of configuration TriCore Debug (TASKING) for project GPT_12_PWM_TEST1 ****
+amk -j18 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="ADC_Single_Channel.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "ADC_Single_Channel.src" "../ADC_Single_Channel.c"
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+ctc E219: ["../ADC_Single_Channel.c" 31/1] cannot open #include file "IfxVadc_Adc.h"
+ctc E219: ["..\ADC_Single_Channel.h" 34/1] cannot open #include file "IfxVadc_Adc.h"
+ctc E208: ["..\ADC_Single_Channel.h" 41/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc"
+amk E452: ["subdir.mk" 37/0] target 'ADC_Single_Channel.src' returned exit code 1
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token ";" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token "<basic-type>" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 42/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Group"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token ";" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token "<basic-type>" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 43/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_ChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token ";" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token "<basic-type>" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 44/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Channel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token ";" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token "<basic-type>" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 55/14] syntax error - token ";" inserted before "adc_Value_to_pwm"
+ctc I805: ["..\ADC_Single_Channel.h" 55/1] start of current external declaration
+ctc E208: ["../ADC_Single_Channel.c" 50/7] syntax error - token ";" inserted before "adc_value_to_pwm"
+ctc I805: ["../ADC_Single_Channel.c" 50/1] start of current external declaration
+ctc E208: ["../ADC_Single_Channel.c" 70/18] syntax error - token ";" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 101/24] syntax error - token ";" inserted before "adcConfig"
+ctc E208: ["../ADC_Single_Channel.c" 111/29] syntax error - token ";" inserted before "adcGroupConfig"
+ctc E208: ["../ADC_Single_Channel.c" 139/74] syntax error - token ";" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 140/83] syntax error - token ";" inserted before "5"
+ctc E208: ["../ADC_Single_Channel.c" 149/60] syntax error - token ")" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 149/60] syntax error - token "," inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 150/60] syntax error - token ")" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 150/60] syntax error - token ";" inserted before "0"
+ctc E207: ["../ADC_Single_Channel.c" 150/70] syntax error - token ")" deleted
+ctc E207: ["../ADC_Single_Channel.c" 150/71] syntax error - token ")" deleted
+ctc E208: ["../ADC_Single_Channel.c" 159/18] syntax error - token ";" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 168/41] syntax error - token ")" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 168/41] syntax error - token "," inserted before "conversionResult"
+ctc E207: ["../ADC_Single_Channel.c" 168/80] syntax error - token ")" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/1] syntax error - token "\xec" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/2] syntax error - token "\x84" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/3] syntax error - token "\xa4" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/4] syntax error - token "\xeb" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/5] syntax error - token "\xaa" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/6] syntax error - token "\x85" deleted
+37 errors, 0 warnings
+ctc E219: ["..\ADC_Single_Channel.h" 34/1] cannot open #include file "IfxVadc_Adc.h"
+ctc E208: ["..\ADC_Single_Channel.h" 41/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token ";" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token "<basic-type>" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 42/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Group"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token ";" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token "<basic-type>" inserted before "adcGroup"
+amk E452: ["subdir.mk" 41/0] target 'Cpu0_Main.src' returned exit code 1
+amk E451: make stopped
+ctc E208: ["..\ADC_Single_Channel.h" 43/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_ChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token ";" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token "<basic-type>" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 44/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Channel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token ";" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token "<basic-type>" inserted before "adcChannel"
+ctc E207: ["../Cpu0_Main.c" 69/1] syntax error - token "\xeb" deleted
+ctc E207: ["../Cpu0_Main.c" 69/2] syntax error - token "\xa9" deleted
+ctc E207: ["../Cpu0_Main.c" 69/3] syntax error - token "\x94" deleted
+ctc E207: ["../Cpu0_Main.c" 69/4] syntax error - token "\xeb" deleted
+ctc E207: ["../Cpu0_Main.c" 69/5] syntax error - token "\xaa" deleted
+ctc E207: ["../Cpu0_Main.c" 69/6] syntax error - token "\xa8" deleted
+ctc E207: ["../Cpu0_Main.c" 70/1] syntax error - token "\xed" deleted
+ctc E207: ["../Cpu0_Main.c" 70/2] syntax error - token "\x95" deleted
+ctc E207: ["../Cpu0_Main.c" 70/3] syntax error - token "\x98" deleted
+ctc E207: ["../Cpu0_Main.c" 70/4] syntax error - token "\xec" deleted
+ctc E207: ["../Cpu0_Main.c" 70/5] syntax error - token "\x9d" deleted
+ctc E207: ["../Cpu0_Main.c" 70/6] syntax error - token "\xb4" deleted
+ctc E207: ["../Cpu0_Main.c" 70/7] syntax error - token "\xeb" deleted
+ctc E207: ["../Cpu0_Main.c" 70/8] syntax error - token "\x9d" deleted
+ctc E207: ["../Cpu0_Main.c" 70/9] syntax error - token "\xbc" deleted
+ctc E207: ["../Cpu0_Main.c" 70/10] syntax error - token "\xec" deleted
+ctc E207: ["../Cpu0_Main.c" 70/11] syntax error - token "\x9d" deleted
+ctc E207: ["../Cpu0_Main.c" 70/12] syntax error - token "\xb4" deleted
+ctc E207: ["../Cpu0_Main.c" 70/13] syntax error - token "\xed" deleted
+ctc E207: ["../Cpu0_Main.c" 70/14] syntax error - token "\x8a" deleted
+ctc E207: ["../Cpu0_Main.c" 70/15] syntax error - token "\xb8" deleted
+ctc E207: ["../Cpu0_Main.c" 71/1] syntax error - token "\xec" deleted
+ctc E207: ["../Cpu0_Main.c" 71/2] syntax error - token "\x84" deleted
+ctc E207: ["../Cpu0_Main.c" 71/3] syntax error - token "\xa4" deleted
+ctc E207: ["../Cpu0_Main.c" 71/4] syntax error - token "\xeb" deleted
+ctc E207: ["../Cpu0_Main.c" 71/5] syntax error - token "\xaa" deleted
+ctc E207: ["../Cpu0_Main.c" 71/6] syntax error - token "\x85" deleted
+40 errors, 0 warnings
+"amk -j18 all" terminated with exit code 1. Build might be incomplete.
+Build started...
+16:23:10 **** Incremental Build of configuration TriCore Debug (TASKING) for project GPT_12_PWM_TEST1 ****
+amk -j18 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="ADC_Single_Channel.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "ADC_Single_Channel.src" "../ADC_Single_Channel.c"
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+ctc E219: ["../ADC_Single_Channel.c" 31/1] cannot open #include file "IfxVadc_Adc.h"
+ctc E219: ["..\ADC_Single_Channel.h" 34/1] cannot open #include file "IfxVadc_Adc.h"
+amk E452: ["subdir.mk" 37/0] target 'ADC_Single_Channel.src' returned exit code 1
+ctc E208: ["..\ADC_Single_Channel.h" 41/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token ";" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token "<basic-type>" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 42/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Group"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token ";" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token "<basic-type>" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 43/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_ChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token ";" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token "<basic-type>" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 44/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Channel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token ";" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token "<basic-type>" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 57/14] syntax error - token ";" inserted before "adc_value_to_pwm"
+ctc I805: ["..\ADC_Single_Channel.h" 57/1] start of current external declaration
+ctc E207: ["..\ADC_Single_Channel.h" 60/1] syntax error - token "\xec" deleted
+ctc E207: ["..\ADC_Single_Channel.h" 60/2] syntax error - token "\x84" deleted
+ctc E207: ["..\ADC_Single_Channel.h" 60/3] syntax error - token "\xa4" deleted
+ctc E207: ["..\ADC_Single_Channel.h" 60/4] syntax error - token "\xeb" deleted
+ctc E207: ["..\ADC_Single_Channel.h" 60/5] syntax error - token "\xaa" deleted
+ctc E207: ["..\ADC_Single_Channel.h" 60/6] syntax error - token "\x85" deleted
+ctc E208: ["../ADC_Single_Channel.c" 50/7] syntax error - token ";" inserted before "adc_value_to_pwm"
+ctc I805: ["../ADC_Single_Channel.c" 50/1] start of current external declaration
+ctc E208: ["../ADC_Single_Channel.c" 70/18] syntax error - token ";" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 101/24] syntax error - token ";" inserted before "adcConfig"
+ctc E208: ["../ADC_Single_Channel.c" 111/29] syntax error - token ";" inserted before "adcGroupConfig"
+ctc E208: ["../ADC_Single_Channel.c" 139/74] syntax error - token ";" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 140/83] syntax error - token ";" inserted before "5"
+ctc E208: ["../ADC_Single_Channel.c" 149/60] syntax error - token ")" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 149/60] syntax error - token "," inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 150/60] syntax error - token ")" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 150/60] syntax error - token ";" inserted before "0"
+ctc E207: ["../ADC_Single_Channel.c" 150/70] syntax error - token ")" deleted
+ctc E207: ["../ADC_Single_Channel.c" 150/71] syntax error - token ")" deleted
+ctc E208: ["../ADC_Single_Channel.c" 159/18] syntax error - token ";" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 168/41] syntax error - token ")" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 168/41] syntax error - token "," inserted before "conversionResult"
+ctc E207: ["../ADC_Single_Channel.c" 168/80] syntax error - token ")" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/1] syntax error - token "\xec" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/2] syntax error - token "\x84" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/3] syntax error - token "\xa4" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/4] syntax error - token "\xeb" deleted
+ctc E207: ["../ADC_Single_Channel.c" 170/5] syntax error - token "\xaa" deleted
+ctc F105: more than 42 errors - aborting
+ctc E219: ["..\ADC_Single_Channel.h" 34/1] cannot open #include file "IfxVadc_Adc.h"
+ctc E208: ["..\ADC_Single_Channel.h" 41/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token ";" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token "<basic-type>" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 42/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Group"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token ";" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token "<basic-type>" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 43/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_ChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token ";" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token "<basic-type>" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 44/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Channel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token ";" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token "<basic-type>" inserted before "adcChannel"
+ctc E207: ["..\ADC_Single_Channel.h" 60/1] syntax error - token "\xec" deleted
+ctc E207: ["..\ADC_Single_Channel.h" 60/2] syntax error - token "\x84" deleted
+ctc E207: ["..\ADC_Single_Channel.h" 60/3] syntax error - token "\xa4" deleted
+ctc E207: ["..\ADC_Single_Channel.h" 60/4] syntax error - token "\xeb" deleted
+ctc E207: ["..\ADC_Single_Channel.h" 60/5] syntax error - token "\xaa" deleted
+ctc E207: ["..\ADC_Single_Channel.h" 60/6] syntax error - token "\x85" deleted
+ctc E207: ["../Cpu0_Main.c" 69/1] syntax error - token "\xeb" deleted
+ctc E207: ["../Cpu0_Main.c" 69/2] syntax error - token "\xa9" deleted
+ctc E207: ["../Cpu0_Main.c" 69/3] syntax error - token "\x94" deleted
+ctc E207: ["../Cpu0_Main.c" 69/4] syntax error - token "\xeb" deleted
+ctc E207: ["../Cpu0_Main.c" 69/5] syntax error - token "\xaa" deleted
+ctc E207: ["../Cpu0_Main.c" 69/6] syntax error - token "\xa8" deleted
+ctc E207: ["../Cpu0_Main.c" 70/1] syntax error - token "\xed" deleted
+ctc E207: ["../Cpu0_Main.c" 70/2] syntax error - token "\x95" deleted
+ctc E207: ["../Cpu0_Main.c" 70/3] syntax error - token "\x98" deleted
+ctc E207: ["../Cpu0_Main.c" 70/4] syntax error - token "\xec" deleted
+ctc E207: ["../Cpu0_Main.c" 70/5] syntax error - token "\x9d" deleted
+ctc E207: ["../Cpu0_Main.c" 70/6] syntax error - token "\xb4" deleted
+ctc E207: ["../Cpu0_Main.c" 70/7] syntax error - token "\xeb" deleted
+ctc E207: ["../Cpu0_Main.c" 70/8] syntax error - token "\x9d" deleted
+ctc E207: ["../Cpu0_Main.c" 70/9] syntax error - token "\xbc" deleted
+ctc E207: ["../Cpu0_Main.c" 70/10] syntax error - token "\xec" deleted
+ctc E207: ["../Cpu0_Main.c" 70/11] syntax error - token "\x9d" deleted
+ctc E207: ["../Cpu0_Main.c" 70/12] syntax error - token "\xb4" deleted
+ctc E207: ["../Cpu0_Main.c" 70/13] syntax error - token "\xed" deleted
+ctc E207: ["../Cpu0_Main.c" 70/14] syntax error - token "\x8a" deleted
+ctc E207: ["../Cpu0_Main.c" 70/15] syntax error - token "\xb8" deleted
+ctc E207: ["../Cpu0_Main.c" 71/1] syntax error - token "\xec" deleted
+ctc E207: ["../Cpu0_Main.c" 71/2] syntax error - token "\x84" deleted
+amk E452: ["subdir.mk" 41/0] target 'Cpu0_Main.src' returned exit code 1
+amk E451: make stopped
+ctc F105: more than 42 errors - aborting
+"amk -j18 all" terminated with exit code 1. Build might be incomplete.
+Build started...
+16:23:34 **** Incremental Build of configuration TriCore Debug (TASKING) for project GPT_12_PWM_TEST1 ****
+amk -j18 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="ADC_Single_Channel.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "ADC_Single_Channel.src" "../ADC_Single_Channel.c"
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+ctc E219: ["../ADC_Single_Channel.c" 31/1] cannot open #include file "IfxVadc_Adc.h"
+ctc E219: ["..\ADC_Single_Channel.h" 34/1] cannot open #include file "IfxVadc_Adc.h"
+amk E452: ["subdir.mk" 37/0] target 'ADC_Single_Channel.src' returned exit code 1
+ctc E208: ["..\ADC_Single_Channel.h" 41/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token ";" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token "<basic-type>" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 42/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Group"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token ";" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token "<basic-type>" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 43/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_ChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token ";" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token "<basic-type>" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 44/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Channel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token ";" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token "<basic-type>" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 57/14] syntax error - token ";" inserted before "adc_value_to_pwm"
+ctc I805: ["..\ADC_Single_Channel.h" 57/1] start of current external declaration
+ctc E208: ["../ADC_Single_Channel.c" 50/7] syntax error - token ";" inserted before "adc_value_to_pwm"
+ctc I805: ["../ADC_Single_Channel.c" 50/1] start of current external declaration
+ctc E208: ["../ADC_Single_Channel.c" 70/18] syntax error - token ";" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 101/24] syntax error - token ";" inserted before "adcConfig"
+ctc E208: ["../ADC_Single_Channel.c" 111/29] syntax error - token ";" inserted before "adcGroupConfig"
+ctc E208: ["../ADC_Single_Channel.c" 139/74] syntax error - token ";" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 140/83] syntax error - token ";" inserted before "5"
+ctc E208: ["../ADC_Single_Channel.c" 149/60] syntax error - token ")" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 149/60] syntax error - token "," inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 150/60] syntax error - token ")" inserted before "0"
+ctc E208: ["../ADC_Single_Channel.c" 150/60] syntax error - token ";" inserted before "0"
+ctc E207: ["../ADC_Single_Channel.c" 150/70] syntax error - token ")" deleted
+ctc E207: ["../ADC_Single_Channel.c" 150/71] syntax error - token ")" deleted
+ctc E208: ["../ADC_Single_Channel.c" 159/18] syntax error - token ";" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 168/41] syntax error - token ")" inserted before "conversionResult"
+ctc E208: ["../ADC_Single_Channel.c" 168/41] syntax error - token "," inserted before "conversionResult"
+ctc E207: ["../ADC_Single_Channel.c" 168/80] syntax error - token ")" deleted
+31 errors, 0 warnings
+ctc E219: ["..\ADC_Single_Channel.h" 34/1] cannot open #include file "IfxVadc_Adc.h"
+ctc E208: ["..\ADC_Single_Channel.h" 41/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token ";" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 41/31] syntax error - token "<basic-type>" inserted before "vadc"
+ctc E208: ["..\ADC_Single_Channel.h" 42/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Group"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token ";" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 42/31] syntax error - token "<basic-type>" inserted before "adcGroup"
+ctc E208: ["..\ADC_Single_Channel.h" 43/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_ChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token ";" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 43/31] syntax error - token "<basic-type>" inserted before "adcChannelConfig"
+ctc E208: ["..\ADC_Single_Channel.h" 44/5] syntax error - token "<basic-type>" inserted before "IfxVadc_Adc_Channel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token ";" inserted before "adcChannel"
+ctc E208: ["..\ADC_Single_Channel.h" 44/31] syntax error - token "<basic-type>" inserted before "adcChannel"
+13 errors, 0 warnings
+amk E452: ["subdir.mk" 41/0] target 'Cpu0_Main.src' returned exit code 1
+amk E451: make stopped
+"amk -j18 all" terminated with exit code 1. Build might be incomplete.
+Build started...
+16:28:22 **** Clean-only build of configuration TriCore Debug (TASKING) for project GPT_12_PWM_TEST1 ****
+amk -j18 clean 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+rm -rf ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.src ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.d ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src
+rm -rf ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.src ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.d ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src
+rm -rf ./Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.d ./Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.o ./Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.src
+rm -rf ./Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.d ./Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.o ./Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.src
+rm -rf ./Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.d ./Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.o ./Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.src
+rm -rf ./Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.d ./Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.o ./Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.src
+rm -rf ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.d ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.o ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.src ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.d ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.o ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.src ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.d ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.o ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src
+rm -rf ./Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.d ./Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.o ./Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.src
+rm -rf ./Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.d ./Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.o ./Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.src
+rm -rf ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.d ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.src ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.d ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.src ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.d ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.src ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.d ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.src ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.d ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.src ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.d ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.src ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.d ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src
+rm -rf ./Libraries/iLLD/TC27D/Tricore/Gpt12/Std/IfxGpt12.d ./Libraries/iLLD/TC27D/Tricore/Gpt12/Std/IfxGpt12.o ./Libraries/iLLD/TC27D/Tricore/Gpt12/Std/IfxGpt12.src
+rm -rf ./Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.d ./Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.o ./Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.src
+rm -rf ./Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.d ./Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.o ./Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.src
+rm -rf ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.d ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.o ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.src ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.d ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.o ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.src ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.d ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.o ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.src
+rm -rf ./Libraries/Service/CpuGeneric/SysSe/Bsp/Assert.d ./Libraries/Service/CpuGeneric/SysSe/Bsp/Assert.o ./Libraries/Service/CpuGeneric/SysSe/Bsp/Assert.src ./Libraries/Service/CpuGeneric/SysSe/Bsp/Bsp.d ./Libraries/Service/CpuGeneric/SysSe/Bsp/Bsp.o ./Libraries/Service/CpuGeneric/SysSe/Bsp/Bsp.src
+rm -rf ./Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.d ./Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.d ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.src ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.d ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.d ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src ./Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.d ./Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src
+rm -rf ./Configurations/Debug/sync_on_halt.d ./Configurations/Debug/sync_on_halt.o ./Configurations/Debug/sync_on_halt.src
+rm -rf ./ADC_Single_Channel.d ./ADC_Single_Channel.o ./ADC_Single_Channel.src ./Cpu0_Main.d ./Cpu0_Main.o ./Cpu0_Main.src ./Cpu1_Main.d ./Cpu1_Main.o ./Cpu1_Main.src ./Cpu2_Main.d ./Cpu2_Main.o ./Cpu2_Main.src ./GPT12_PWM_Generation.d ./GPT12_PWM_Generation.o ./GPT12_PWM_Generation.src
+rm -rf GPT_12_PWM_TEST1.siz GPT_12_PWM_TEST1.elf
+ 
+16:28:22 **** Build of configuration TriCore Debug (TASKING) for project GPT_12_PWM_TEST1 ****
+amk -j18 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src" "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.src"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src" "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.src" "../Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.src" "../Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.src" "../Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.src" "../Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.src" "../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.src" "../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src" "../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.src" "../Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.src" "../Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.src" "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.src" "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.src" "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.src" "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.src" "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.src" "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.o" "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.src"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src" "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gpt12/Std/IfxGpt12.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Gpt12/Std/IfxGpt12.src" "../Libraries/iLLD/TC27D/Tricore/Gpt12/Std/IfxGpt12.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.src" "../Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.o" "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.o" "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.o" "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.o" "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.o" "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.o" "Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.src"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.src" "../Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.src" "../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.o" "Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.src"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.src" "../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.c"
+cctc -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.src" "../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.c"
+cctc -cs --dep-file="Libraries/Service/CpuGeneric/SysSe/Bsp/Assert.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Service/CpuGeneric/SysSe/Bsp/Assert.src" "../Libraries/Service/CpuGeneric/SysSe/Bsp/Assert.c"
+cctc -cs --dep-file="Libraries/Service/CpuGeneric/SysSe/Bsp/Bsp.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Service/CpuGeneric/SysSe/Bsp/Bsp.src" "../Libraries/Service/CpuGeneric/SysSe/Bsp/Bsp.c"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.o" "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.src"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.c"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.src"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Service/CpuGeneric/SysSe/Bsp/Assert.o" "Libraries/Service/CpuGeneric/SysSe/Bsp/Assert.src"
+cctc -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src" "../Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src"
+cctc -cs --dep-file="Configurations/Debug/sync_on_halt.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Configurations/Debug/sync_on_halt.src" "../Configurations/Debug/sync_on_halt.c"
+cctc -cs --dep-file="ADC_Single_Channel.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "ADC_Single_Channel.src" "../ADC_Single_Channel.c"
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.o" "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src"
+cctc -cs --dep-file="Cpu1_Main.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu1_Main.src" "../Cpu1_Main.c"
+cctc -cs --dep-file="Cpu2_Main.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu2_Main.src" "../Cpu2_Main.c"
+cctc -cs --dep-file="GPT12_PWM_Generation.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "GPT12_PWM_Generation.src" "../GPT12_PWM_Generation.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.o" "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.o" "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.o" "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gpt12/Std/IfxGpt12.o" "Libraries/iLLD/TC27D/Tricore/Gpt12/Std/IfxGpt12.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Service/CpuGeneric/SysSe/Bsp/Bsp.o" "Libraries/Service/CpuGeneric/SysSe/Bsp/Bsp.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.o" "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Configurations/Debug/sync_on_halt.o" "Configurations/Debug/sync_on_halt.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu1_Main.o" "Cpu1_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu2_Main.o" "Cpu2_Main.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "GPT12_PWM_Generation.o" "GPT12_PWM_Generation.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "ADC_Single_Channel.o" "ADC_Single_Channel.src"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: GPT_12_PWM_TEST1.elf
+Invoking: TASKING Linker
+cctc -f .GPT_12_PWM_TEST1.elf.opt
+Finished building target: GPT_12_PWM_TEST1.elf
+ 
+Invoking: Print Size
+elfsize  "GPT_12_PWM_TEST1.elf"
+Total sizes:
+ROM: 0x3340 (13120) = code: 0x304e (12366) + romdata: 0x2f2 (754)
+RAM: 0x9552 (38226) = data + bss
+Finished building: GPT_12_PWM_TEST1.siz
+ 
+Build started...
+16:28:36 **** Incremental Build of configuration TriCore Debug (TASKING) for project GPT_12_PWM_TEST1 ****
+amk -j18 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: GPT_12_PWM_TEST1.elf
+Invoking: TASKING Linker
+cctc -f .GPT_12_PWM_TEST1.elf.opt
+Finished building target: GPT_12_PWM_TEST1.elf
+ 
+Invoking: Print Size
+elfsize  "GPT_12_PWM_TEST1.elf"
+Total sizes:
+ROM: 0x3340 (13120) = code: 0x304e (12366) + romdata: 0x2f2 (754)
+RAM: 0x9552 (38226) = data + bss
+Finished building: GPT_12_PWM_TEST1.siz
+ 
+Build started...
+16:28:46 **** Incremental Build of configuration TriCore Debug (TASKING) for project GPT_12_PWM_TEST1 ****
+amk -j18 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: GPT_12_PWM_TEST1.elf
+Invoking: TASKING Linker
+cctc -f .GPT_12_PWM_TEST1.elf.opt
+Finished building target: GPT_12_PWM_TEST1.elf
+ 
+Invoking: Print Size
+elfsize  "GPT_12_PWM_TEST1.elf"
+Total sizes:
+ROM: 0x3340 (13120) = code: 0x304e (12366) + romdata: 0x2f2 (754)
+RAM: 0x9552 (38226) = data + bss
+Finished building: GPT_12_PWM_TEST1.siz
+ 

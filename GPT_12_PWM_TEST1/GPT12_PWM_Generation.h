@@ -27,12 +27,13 @@
 
 #ifndef GPT12_PWM_GENERATION_H_
 #define GPT12_PWM_GENERATION_H_
+
 #include "Ifx_Types.h"
+
 /*********************************************************************************************************************/
 /*------------------------------------------------Function Prototypes------------------------------------------------*/
 /*********************************************************************************************************************/
 void initGpt12PWM(void);                                    /* Function to initialize the GPT12 module and the LED  */
 void runGpt12PWM(void);                                     /* Function to start the GPT12 timer                    */
 void Set_Gpt12PWM_Duty(uint8 pwm_duty);
-
 #endif /* GPT12_PWM_GENERATION_H_ */

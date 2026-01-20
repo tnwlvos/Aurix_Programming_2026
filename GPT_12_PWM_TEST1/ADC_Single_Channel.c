@@ -47,6 +47,8 @@
 /*********************************************************************************************************************/
 ApplicationVadcBackgroundScan g_vadcBackgroundScan;
 
+uint8 adc_value_to_pwm = 0;
+
 /*********************************************************************************************************************/
 /*---------------------------------------------Function Implementations----------------------------------------------*/
 /*********************************************************************************************************************/
@@ -149,4 +151,19 @@ void vadcBackgroundScanRun(void)
 
     /* Start background scan conversion */
     IfxVadc_Adc_startBackgroundScan(&g_vadcBackgroundScan.vadc);
+}
+
+
+void advalue_to_pwm_conversion(void)
+{
+    Ifx_VADC_RES conversionResult;
+
+    /* Retrieve the conversion value until valid flag of the result register is true */
+    do
+    {
+        conversionResult = IfxVadc_Adc_getResult(&g_vadcBackgroundScan.adcChannel);
+    }
+    while (!conversionResult.B.VF);
+
+    adc_value_to_pwm = (uint8)(((uint32)conversionResult.B.RESULT * 100) / 4095);
 }

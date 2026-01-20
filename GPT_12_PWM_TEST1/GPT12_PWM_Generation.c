@@ -29,7 +29,7 @@
 /*-----------------------------------------------------Includes------------------------------------------------------*/
 /*********************************************************************************************************************/
 #include "GPT12_PWM_Generation.h"
-#include "Ifx_Types.h"
+//#include "Ifx_Types.h"
 #include "IfxGpt12.h"
 #include "IfxPort.h"
 
@@ -43,10 +43,11 @@
 #define LED                         &MODULE_P00, 5          /* LED which toggles in the Interrupt Service Routine   */
 #define GPT1_BLOCK_PRESCALER        32                      /* GPT1 block prescaler value                           */
 #define TIMER_T3_INPUT_PRESCALER    32                      /* Timer input prescaler value                          */
+
 #define TEST_PIN1                   &MODULE_P00, 1
 
-float32 fTimer     = 0.0;
-float32 moduleFreq = 0.0;
+float32 moduleFreq  = 0.0;
+float32 fTimer      = 0.0;
 /*********************************************************************************************************************/
 /*--------------------------------------------Function Implementations-----------------------------------------------*/
 /*********************************************************************************************************************/
@@ -59,7 +60,6 @@ void interruptGpt12(void)
     /* Toggle the state of the LED */
     IfxPort_togglePin(LED);
     IfxPort_togglePin(TEST_PIN1);
-
 }
 
 /* Function to initialize the GPT12 module and the LED */
@@ -115,10 +115,15 @@ void initGpt12PWM(void)
 void runGpt12PWM(void)
 {
     IfxGpt12_T3_run(&MODULE_GPT120, IfxGpt12_TimerRun_start);                   /* Start the timer T3               */
+
 }
-void Set_Gpt12PWM_Duty(uint8 pwm_duty){
-    uint16 dutyUpTime = (fTimer * (pwm_duty / 100.0f))/ PWM_FREQUENCY;
-    uint16 dutyDownTime = (fTimer * (1-(pwm_duty/100.0f)))/PWM_FREQUENCY;
+
+void Set_Gpt12PWM_Duty(uint8 pwm_duty)
+{
+    uint16 dutyUpTime = (fTimer * (pwm_duty / 100.0f)) / PWM_FREQUENCY;
+    uint16 dutyDownTime = (fTimer * (1 - (pwm_duty / 100.0f))) / PWM_FREQUENCY;
     IfxGpt12_T2_setTimerValue(&MODULE_GPT120, dutyDownTime);
     IfxGpt12_T4_setTimerValue(&MODULE_GPT120, dutyUpTime);
 }
+
+

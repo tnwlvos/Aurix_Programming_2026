@@ -52,5 +52,8 @@ void indicateConversionValue(void);
 void vadcBackgroundScanInit(void);
 void vadcBackgroundScanRun(void);
 
-extern uint8 adc_Value_to_pwm;
+
+void advalue_to_pwm_conversion(void);
+extern uint8 adc_value_to_pwm;
+
 #endif /* ADC_SINGLE_CHANNEL_H_ */

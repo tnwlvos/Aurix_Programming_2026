@@ -4,24 +4,28 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+"../ADC_Single_Channel.c" \
 "../Cpu0_Main.c" \
 "../Cpu1_Main.c" \
 "../Cpu2_Main.c" \
 "../GPT12_PWM_Generation.c" 
 
 COMPILED_SRCS += \
+"ADC_Single_Channel.src" \
 "Cpu0_Main.src" \
 "Cpu1_Main.src" \
 "Cpu2_Main.src" \
 "GPT12_PWM_Generation.src" 
 
 C_DEPS += \
+"./ADC_Single_Channel.d" \
 "./Cpu0_Main.d" \
 "./Cpu1_Main.d" \
 "./Cpu2_Main.d" \
 "./GPT12_PWM_Generation.d" 
 
 OBJS += \
+"ADC_Single_Channel.o" \
 "Cpu0_Main.o" \
 "Cpu1_Main.o" \
 "Cpu2_Main.o" \
@@ -29,6 +33,10 @@ OBJS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
+"ADC_Single_Channel.src":"../ADC_Single_Channel.c" "subdir.mk"
+	cctc -cs --dep-file="$*.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "$@" "$<"
+"ADC_Single_Channel.o":"ADC_Single_Channel.src" "subdir.mk"
+	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
 "Cpu0_Main.src":"../Cpu0_Main.c" "subdir.mk"
 	cctc -cs --dep-file="$*.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "$@" "$<"
 "Cpu0_Main.o":"Cpu0_Main.src" "subdir.mk"
@@ -49,7 +57,7 @@ OBJS += \
 clean: clean--2e-
 
 clean--2e-:
-	-$(RM) ./Cpu0_Main.d ./Cpu0_Main.o ./Cpu0_Main.src ./Cpu1_Main.d ./Cpu1_Main.o ./Cpu1_Main.src ./Cpu2_Main.d ./Cpu2_Main.o ./Cpu2_Main.src ./GPT12_PWM_Generation.d ./GPT12_PWM_Generation.o ./GPT12_PWM_Generation.src
+	-$(RM) ./ADC_Single_Channel.d ./ADC_Single_Channel.o ./ADC_Single_Channel.src ./Cpu0_Main.d ./Cpu0_Main.o ./Cpu0_Main.src ./Cpu1_Main.d ./Cpu1_Main.o ./Cpu1_Main.src ./Cpu2_Main.d ./Cpu2_Main.o ./Cpu2_Main.src ./GPT12_PWM_Generation.d ./GPT12_PWM_Generation.o ./GPT12_PWM_Generation.src
 
 .PHONY: clean--2e-
 

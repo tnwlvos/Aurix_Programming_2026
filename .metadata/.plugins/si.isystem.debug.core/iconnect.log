@@ -1,0 +1,21 @@
+44   INFO  [main] Log5J : ***  59.2397  ***  **********************************************************
+45   INFO  [main] Log5J : ***  60.4001  ***  Logger configuration successful. Configuration file used: 
+45   INFO  [main] Log5J : ***  60.4972  ***  C:\Infineon\AURIX-Studio-1.10.28\configuration\org.eclipse.osgi\398\0\.cp\lib\log4j.properties
+45   INFO  [main] Log5J : ***  60.5512  ***  **********************************************************
+96   INFO  [main] ISysProductFactory : ***  112.108  ***  Found product: Name: 'com.infineon.aurix.buildsystem.aurixide', winIDEA package: 'winIDEA_IFX_ADS'
+102  INFO  [main] CmdRunner : Running: 'C:\Users\ÀÌ»óÈÆ\AppData\Local\iSYSTEM\b18\PackageManager.exe init --afr-path="C:\Infineon\AURIX-Studio-1.10.28\local_AFR" --owner="C:\Infineon\AURIX-Studio-1.10.28\AURIX-studio.exe"'
+1404 INFO  [main] CmdRunner : Operation finished in 1302ms Return code: 0
+1404 INFO  [main] CmdRunner : Output: >>><<<
+1404 INFO  [main] CmdRunner : Running: 'C:\Users\ÀÌ»óÈÆ\AppData\Local\iSYSTEM\b18\PackageManager.exe --version'
+1444 INFO  [main] CmdRunner : Operation finished in 40ms Return code: 0
+1444 INFO  [main] CmdRunner : Output: >>>9.21.345<<<
+1444 INFO  [main] WinIdeaUpdateManager : Package manager version 9.21.345
+1445 INFO  [main] WinIdeaUpdateManager : WinIdeaUpdateManager: initialization:
+1445 INFO  [main] WinIdeaUpdateManager :  - Product folder: C:\Infineon\AURIX-Studio-1.10.28
+1445 INFO  [main] WinIdeaUpdateManager :  - Product exe (owner): C:\Infineon\AURIX-Studio-1.10.28\AURIX-studio.exe
+1445 INFO  [main] WinIdeaUpdateManager :  - Package manager: C:\Users\ÀÌ»óÈÆ\AppData\Local\iSYSTEM\b18\PackageManager.exe
+1445 INFO  [main] WinIdeaUpdateManager :  - Local AFR: C:\Infineon\AURIX-Studio-1.10.28\local_AFR
+1445 INFO  [main] WinIdeaUpdateManager :  - Update channel: Production
+1454 INFO  [main] ISystemPreferences : ***  1470.1866  ***  Preferences loaded: Install type: Custom, Custom path: '\winIDEA'
+1456 INFO  [main] ISysDebugPlugin : ***  1471.9672  ***  Starting Plugin si.isystem.eclipse.debug version 921.35900.228890.
+1458 INFO  [main] ISysDebugPlugin : ***  1473.2392  ***  Plugin si.isystem.eclipse.debug started.
