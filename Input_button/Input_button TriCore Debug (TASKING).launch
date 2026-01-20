@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.rt.hightec.agent.launcher.launchConfigurationType">
+    <stringAttribute key="ACC_HW" value="DAS JDS AURIX LITE KIT V1.1 LK7WL83O"/>
+    <booleanAttribute key="ENABLE_AGENTLOG" value="false"/>
+    <booleanAttribute key="ENABLE_FLASHING" value="true"/>
+    <booleanAttribute key="ENABLE_STOPPING" value="true"/>
+    <stringAttribute key="EXECUTABLE_PATH" value="${workspace_loc}/Input_button/TriCore Debug (TASKING)/Input_button.elf"/>
+    <stringAttribute key="STOP_FUNCTION" value="core0_main"/>
+    <stringAttribute key="SVD" value="C:/Infineon/AURIX-Studio-1.10.28/build_system/bundled-artefacts-repo/svd/tc27xdpd/1.1-2/device.svd"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="Input_button"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/Input_button"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_LOCATION" value="/Input_button/Input_button TriCore Debug (TASKING).launch"/>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_PROJECT_NAME" value="Input_button"/>
+    <booleanAttribute key="org.eclipse.debug.ui.ATTR_SHARED" value="true"/>
+    <stringAttribute key="org.eclipse.tcf.debug.MemoryMap" value="[{&quot;FileName&quot;:&quot;C:/Aurix/Input_button/TriCore Debug (TASKING)/Input_button.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;716075d1-7cef-4c06-b0b7-b2553042015d&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/Input_button/TriCore Debug (TASKING)/Input_button.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;e433ab43-c085-4bdb-8e05-9bee7b8b102d&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/Input_button/TriCore Debug (TASKING)/Input_button.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;dff7f865-7b7f-49a4-bb36-5a25919093bf&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/Input_button/TriCore Debug (TASKING)/Input_button.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;6b809f8a-42d6-4181-9567-caaf09aa3f53&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/Input_button/TriCore Debug (TASKING)/Input_button.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;0d484791-84bf-4118-8961-3408a9a7d4ea&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/Input_button/TriCore Debug (TASKING)/Input_button.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;c1b7fc74-4f58-4f3e-871a-19d2e6a8ed6e&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/Input_button/TriCore Debug (TASKING)/Input_button.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;80851fd5-504e-439e-8242-0cede6c74171&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/Input_button/TriCore Debug (TASKING)/Input_button.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;a910d41b-67fb-4d35-b979-7b54309fb595&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/Input_button/TriCore Debug (TASKING)/Input_button.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;ded271d1-6758-4f79-812b-71167b1cbccf&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/Input_button/TriCore Debug (TASKING)/Input_button.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;122d015b-4212-470a-a97b-31a853147cd0&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/Input_button/TriCore Debug (TASKING)/Input_button.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;4e280b02-d35f-4f0b-a984-21983ca09ef3&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/Input_button/TriCore Debug (TASKING)/Input_button.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;7727933d-362c-4b7f-b4fd-fde20af8ed00&quot;}]"/>
+    <stringAttribute key="org.eclipse.tcf.debug.PeerID" value="TCP:127.0.0.1:1534"/>
+    <stringAttribute key="org.eclipse.tcf.debug.ProjectName" value="Input_button"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.RunLocalAgent" value="false"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.RunLocalServer" value="false"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.UseLocalAgent" value="false"/>
+    <stringAttribute key="org.eclipse.tcf.debug.executable_name" value="${workspace_loc}/Input_button/TriCore Debug (TASKING)/Input_button.elf"/>
+    <stringAttribute key="sessionID" value="e7f76be9-13a5-4e46-a452-70df6b39fa0c"/>
+</launchConfiguration>

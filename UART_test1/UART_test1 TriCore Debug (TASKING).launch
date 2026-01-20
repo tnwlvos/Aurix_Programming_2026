@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.rt.hightec.agent.launcher.launchConfigurationType">
+    <stringAttribute key="ACC_HW" value="DAS JDS AURIX LITE KIT V1.1 LK7WL83O"/>
+    <booleanAttribute key="ENABLE_AGENTLOG" value="false"/>
+    <booleanAttribute key="ENABLE_FLASHING" value="true"/>
+    <booleanAttribute key="ENABLE_STOPPING" value="true"/>
+    <stringAttribute key="EXECUTABLE_PATH" value="${workspace_loc}/UART_test1/TriCore Debug (TASKING)/UART_test1.elf"/>
+    <stringAttribute key="STOP_FUNCTION" value="core0_main"/>
+    <stringAttribute key="SVD" value="C:/Infineon/AURIX-Studio-1.10.28/build_system/bundled-artefacts-repo/svd/tc27xdpd/1.1-2/device.svd"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="UART_test1"/>
+    <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/UART_test1"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_LOCATION" value="/UART_test1/UART_test1 TriCore Debug (TASKING).launch"/>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_PROJECT_NAME" value="UART_test1"/>
+    <booleanAttribute key="org.eclipse.debug.ui.ATTR_SHARED" value="true"/>
+    <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+        <listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+        <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.tcf.debug.MemoryMap" value="[{&quot;FileName&quot;:&quot;C:/Aurix/TC275/UART_test1/TriCore Debug (TASKING)/UART_test1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;3b466f1f-ff91-4aa4-94a2-534ab377a9e1&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/UART_test1/TriCore Debug (TASKING)/UART_test1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;37aff7f9-43b4-4e9a-b400-91d1bd826f8d&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/UART_test1/TriCore Debug (TASKING)/UART_test1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;f77dee8c-a4f1-4615-abc4-62d4e00db206&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/UART_test1/TriCore Debug (TASKING)/UART_test1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;529baacf-19a3-4363-94c6-b707060e877d&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/UART_test1/TriCore Debug (TASKING)/UART_test1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;3a2c4e1d-c471-48ae-9019-6531ded4bd02&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/UART_test1/TriCore Debug (TASKING)/UART_test1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;03a6dcc2-6e5b-4fa2-9e9e-09f5a955a111&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/UART_test1/TriCore Debug (TASKING)/UART_test1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;6a027d02-a9aa-4565-b17b-a642e069e336&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/UART_test1/TriCore Debug (TASKING)/UART_test1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;7ec69b3a-0b5c-4673-b716-a316f86b3343&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/UART_test1/TriCore Debug (TASKING)/UART_test1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;9cd52268-e474-4f5b-b25a-96524d290d10&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/UART_test1/TriCore Debug (TASKING)/UART_test1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;792cb35a-9878-4b9f-bc35-f90e027feb47&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/UART_test1/TriCore Debug (TASKING)/UART_test1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;74da23e9-daab-4470-8673-16f60b2ab116&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/UART_test1/TriCore Debug (TASKING)/UART_test1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;19f8b14a-0025-4c31-b06c-8bd979cd4dda&quot;}]"/>
+    <stringAttribute key="org.eclipse.tcf.debug.PeerID" value="TCP:127.0.0.1:1534"/>
+    <stringAttribute key="org.eclipse.tcf.debug.ProjectName" value="UART_test1"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.RunLocalAgent" value="false"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.RunLocalServer" value="false"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.UseLocalAgent" value="false"/>
+    <stringAttribute key="org.eclipse.tcf.debug.executable_name" value="${workspace_loc}/UART_test1/TriCore Debug (TASKING)/UART_test1.elf"/>
+    <stringAttribute key="sessionID" value="df4ac858-36b4-4f7d-a988-aba7cf65a589"/>
+</launchConfiguration>

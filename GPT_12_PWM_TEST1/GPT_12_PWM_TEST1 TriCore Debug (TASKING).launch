@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.rt.hightec.agent.launcher.launchConfigurationType">
+    <stringAttribute key="ACC_HW" value="DAS JDS AURIX LITE KIT V1.1 LK7WL83O"/>
+    <booleanAttribute key="ENABLE_AGENTLOG" value="false"/>
+    <booleanAttribute key="ENABLE_FLASHING" value="true"/>
+    <booleanAttribute key="ENABLE_STOPPING" value="true"/>
+    <stringAttribute key="EXECUTABLE_PATH" value="${workspace_loc}/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf"/>
+    <stringAttribute key="STOP_FUNCTION" value="core0_main"/>
+    <stringAttribute key="SVD" value="C:/Infineon/AURIX-Studio-1.10.28/build_system/bundled-artefacts-repo/svd/tc27xdpd/1.1-2/device.svd"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="GPT_12_PWM_TEST1"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/GPT_12_PWM_TEST1"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_LOCATION" value="/GPT_12_PWM_TEST1/GPT_12_PWM_TEST1 TriCore Debug (TASKING).launch"/>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_PROJECT_NAME" value="GPT_12_PWM_TEST1"/>
+    <booleanAttribute key="org.eclipse.debug.ui.ATTR_SHARED" value="true"/>
+    <stringAttribute key="org.eclipse.tcf.debug.MemoryMap" value="[{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;f46f01ad-558b-44ed-b8fe-51cbcdbbe544&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;67887d3f-5522-4852-b261-9a6f0bccdc90&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;a20b1e89-c650-4234-9fd5-4a6b0d4007a6&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;9a0bf915-224b-479c-b251-278e8e052171&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;7792ba43-7e20-44bb-8759-7d2094161194&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;af048905-793c-4f69-b632-825fe2b80eac&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;3d19b4aa-7f6f-4116-9bd2-c039d9bdcc06&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;570dbe07-8bf9-4631-8fb4-1ef341e79f61&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;27201d01-ffea-433d-adc1-39b7b9aa56d1&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;ced4d850-2e48-48b3-8362-98cfe0467a20&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;3b7c936c-caf1-4e0a-b6a7-c901af4847bb&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;48d439e4-b300-43ae-84f9-77f3d9ad1eca&quot;}]"/>
+    <stringAttribute key="org.eclipse.tcf.debug.PeerID" value="TCP:127.0.0.1:52097"/>
+    <stringAttribute key="org.eclipse.tcf.debug.ProjectName" value="GPT_12_PWM_TEST1"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.RunLocalAgent" value="false"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.RunLocalServer" value="false"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.UseLocalAgent" value="false"/>
+    <stringAttribute key="org.eclipse.tcf.debug.executable_name" value="${workspace_loc}/GPT_12_PWM_TEST1/TriCore Debug (TASKING)/GPT_12_PWM_TEST1.elf"/>
+    <stringAttribute key="sessionID" value="6bcb79e8-24a7-427b-8386-b2d358f992ff"/>
+</launchConfiguration>

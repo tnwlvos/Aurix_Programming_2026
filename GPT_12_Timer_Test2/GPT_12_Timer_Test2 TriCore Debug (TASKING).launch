@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.rt.hightec.agent.launcher.launchConfigurationType">
+    <stringAttribute key="ACC_HW" value="DAS JDS AURIX LITE KIT V1.1 LK7WL83O"/>
+    <booleanAttribute key="ENABLE_AGENTLOG" value="false"/>
+    <booleanAttribute key="ENABLE_FLASHING" value="true"/>
+    <booleanAttribute key="ENABLE_STOPPING" value="true"/>
+    <stringAttribute key="EXECUTABLE_PATH" value="${workspace_loc}/GPT_12_Timer_Test2/TriCore Debug (TASKING)/GPT_12_Timer_Test2.elf"/>
+    <stringAttribute key="STOP_FUNCTION" value="core0_main"/>
+    <stringAttribute key="SVD" value="C:/Infineon/AURIX-Studio-1.10.28/build_system/bundled-artefacts-repo/svd/tc27xdpd/1.1-2/device.svd"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="GPT_12_Timer_Test2"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/GPT_12_Timer_Test2"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_LOCATION" value="/GPT_12_Timer_Test2/GPT_12_Timer_Test2 TriCore Debug (TASKING).launch"/>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_PROJECT_NAME" value="GPT_12_Timer_Test2"/>
+    <booleanAttribute key="org.eclipse.debug.ui.ATTR_SHARED" value="true"/>
+    <stringAttribute key="org.eclipse.tcf.debug.MemoryMap" value="[{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_Timer_Test2/TriCore Debug (TASKING)/GPT_12_Timer_Test2.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;5f9c05f4-51f0-4b4e-abb3-8970af7f86f1&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_Timer_Test2/TriCore Debug (TASKING)/GPT_12_Timer_Test2.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;445ffe27-1e91-4cf1-9c56-fbe006f8cf38&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_Timer_Test2/TriCore Debug (TASKING)/GPT_12_Timer_Test2.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;23d2e1d5-4089-4e67-913e-a8a15cbe7b09&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_Timer_Test2/TriCore Debug (TASKING)/GPT_12_Timer_Test2.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;c81c04b4-6604-477b-84bf-967060000ac9&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_Timer_Test2/TriCore Debug (TASKING)/GPT_12_Timer_Test2.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;9525e1a0-621d-4201-bf3f-0ff82a7f46bc&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_Timer_Test2/TriCore Debug (TASKING)/GPT_12_Timer_Test2.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;b80b130c-d2d9-4cc9-b991-c3f1956b5918&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_Timer_Test2/TriCore Debug (TASKING)/GPT_12_Timer_Test2.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;2fcadd55-29e9-430e-a98e-c5a61c5990f4&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_Timer_Test2/TriCore Debug (TASKING)/GPT_12_Timer_Test2.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;66775ba4-f666-4bab-8fcb-f8a1e6ab087e&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_Timer_Test2/TriCore Debug (TASKING)/GPT_12_Timer_Test2.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;36f3acc4-5682-46bb-827b-8779d2ef0d90&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_Timer_Test2/TriCore Debug (TASKING)/GPT_12_Timer_Test2.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;2ab25d3a-33fb-4c8d-a370-bca6fce79e4d&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_Timer_Test2/TriCore Debug (TASKING)/GPT_12_Timer_Test2.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;f18086fd-0396-49c4-ae06-cea40e9044f3&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/GPT_12_Timer_Test2/TriCore Debug (TASKING)/GPT_12_Timer_Test2.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;6443e973-075c-48b1-830f-15e6cab7a04f&quot;}]"/>
+    <stringAttribute key="org.eclipse.tcf.debug.PeerID" value="TCP:127.0.0.1:57409"/>
+    <stringAttribute key="org.eclipse.tcf.debug.ProjectName" value="GPT_12_Timer_Test2"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.RunLocalAgent" value="false"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.RunLocalServer" value="false"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.UseLocalAgent" value="false"/>
+    <stringAttribute key="org.eclipse.tcf.debug.executable_name" value="${workspace_loc}/GPT_12_Timer_Test2/TriCore Debug (TASKING)/GPT_12_Timer_Test2.elf"/>
+    <stringAttribute key="sessionID" value="6889ed5f-e983-4bc4-b2aa-e1bde0a9ffd4"/>
+</launchConfiguration>

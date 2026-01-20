@@ -1,0 +1,20 @@
+10:33:45 **** Incremental Build of configuration TriCore Debug (TASKING) for project Timer_Test1 ****
+amk -j18 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="GPT12_Timer_Interrupt.d" --misrac-version=2012 -D__CPU__=tc27xd "-fC:/Aurix/TC275/Timer_Test1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "GPT12_Timer_Interrupt.src" "../GPT12_Timer_Interrupt.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "GPT12_Timer_Interrupt.o" "GPT12_Timer_Interrupt.src"
+Building target: Timer_Test1.elf
+Invoking: TASKING Linker
+cctc -f .Timer_Test1.elf.opt
+Finished building target: Timer_Test1.elf
+ 
+Invoking: Print Size
+elfsize  "Timer_Test1.elf"
+Total sizes:
+ROM: 0x22cd (8909) = code: 0x2116 (8470) + romdata: 0x1b7 (439)
+RAM: 0x951b (38171) = data + bss
+Finished building: Timer_Test1.siz
+ 
+
+10:33:46 Build Finished. 0 errors, 0 warnings. (took 650ms)
+

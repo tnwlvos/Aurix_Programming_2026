@@ -1,0 +1,18 @@
+14:41:25 **** Incremental Build of configuration TriCore Debug (TASKING) for project Single_ADC_test ****
+amk -j18 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: Single_ADC_test.elf
+Invoking: TASKING Linker
+cctc -f .Single_ADC_test.elf.opt
+Finished building target: Single_ADC_test.elf
+ 
+Invoking: Print Size
+elfsize  "Single_ADC_test.elf"
+Total sizes:
+ROM: 0x3183 (12675) = code: 0x2eaa (11946) + romdata: 0x2d9 (729)
+RAM: 0x9549 (38217) = data + bss
+Finished building: Single_ADC_test.siz
+ 
+
+14:41:25 Build Finished. 0 errors, 0 warnings. (took 604ms)
+

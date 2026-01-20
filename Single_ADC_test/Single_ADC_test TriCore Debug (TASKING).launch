@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.rt.hightec.agent.launcher.launchConfigurationType">
+    <stringAttribute key="ACC_HW" value="DAS JDS AURIX LITE KIT V1.1 LK7WL83O"/>
+    <booleanAttribute key="ENABLE_AGENTLOG" value="false"/>
+    <booleanAttribute key="ENABLE_FLASHING" value="true"/>
+    <booleanAttribute key="ENABLE_STOPPING" value="true"/>
+    <stringAttribute key="EXECUTABLE_PATH" value="${workspace_loc}/Single_ADC_test/TriCore Debug (TASKING)/Single_ADC_test.elf"/>
+    <stringAttribute key="STOP_FUNCTION" value="core0_main"/>
+    <stringAttribute key="SVD" value="C:/Infineon/AURIX-Studio-1.10.28/build_system/bundled-artefacts-repo/svd/tc27xdpd/1.1-2/device.svd"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="Single_ADC_test"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/Single_ADC_test"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_LOCATION" value="/Single_ADC_test/Single_ADC_test TriCore Debug (TASKING).launch"/>
+    <stringAttribute key="org.eclipse.debug.ui.ATTR_PROJECT_NAME" value="Single_ADC_test"/>
+    <booleanAttribute key="org.eclipse.debug.ui.ATTR_SHARED" value="true"/>
+    <stringAttribute key="org.eclipse.tcf.debug.MemoryMap" value="[{&quot;FileName&quot;:&quot;C:/Aurix/TC275/Single_ADC_test/TriCore Debug (TASKING)/Single_ADC_test.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;b7a517f3-ae88-4c44-8c15-7aeecbbe2acd&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/Single_ADC_test/TriCore Debug (TASKING)/Single_ADC_test.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;3372fe59-a412-4af8-8971-acbe0b9969a5&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/Single_ADC_test/TriCore Debug (TASKING)/Single_ADC_test.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;b7ceda09-5292-4461-b899-4967bf62e22b&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/Single_ADC_test/TriCore Debug (TASKING)/Single_ADC_test.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;92b443e3-ad5c-44e1-823e-8489eb280531&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/Single_ADC_test/TriCore Debug (TASKING)/Single_ADC_test.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;77fd3b7b-5b98-41d1-8d09-3b978a709682&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/Single_ADC_test/TriCore Debug (TASKING)/Single_ADC_test.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;40003393-3196-4ec1-ab33-c5838c4497ec&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/Single_ADC_test/TriCore Debug (TASKING)/Single_ADC_test.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;9983f2ac-afd4-4bd9-879d-cd7d759da02b&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/Single_ADC_test/TriCore Debug (TASKING)/Single_ADC_test.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;3b4507d5-3431-4232-aa94-f89aecfcafef&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/Single_ADC_test/TriCore Debug (TASKING)/Single_ADC_test.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;015ad922-b25c-42e4-b315-9ab6cd98f9fc&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/Single_ADC_test/TriCore Debug (TASKING)/Single_ADC_test.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 2: CPU2 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;1cba7250-b066-41e6-9163-2f0944b066ae&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/Single_ADC_test/TriCore Debug (TASKING)/Single_ADC_test.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 0: CPU0 TriCore 1.6E&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;14219469-c5bf-43cf-919a-a0c554e49f55&quot;},{&quot;FileName&quot;:&quot;C:/Aurix/TC275/Single_ADC_test/TriCore Debug (TASKING)/Single_ADC_test.elf&quot;,&quot;ID&quot;:&quot;/DAS JDS AURIX LITE KIT V1.1 LK7WL83O/Core 1: CPU1 TriCore 1.6P&quot;,&quot;Flags&quot;:0,&quot;UUID&quot;:&quot;6cd42282-e9a6-4b05-ad9d-258aaeb40b2d&quot;}]"/>
+    <stringAttribute key="org.eclipse.tcf.debug.PeerID" value="TCP:127.0.0.1:1534"/>
+    <stringAttribute key="org.eclipse.tcf.debug.ProjectName" value="Single_ADC_test"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.RunLocalAgent" value="false"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.RunLocalServer" value="false"/>
+    <booleanAttribute key="org.eclipse.tcf.debug.UseLocalAgent" value="false"/>
+    <stringAttribute key="org.eclipse.tcf.debug.executable_name" value="${workspace_loc}/Single_ADC_test/TriCore Debug (TASKING)/Single_ADC_test.elf"/>
+    <stringAttribute key="sessionID" value="73b9c6e6-1d0c-4efe-a832-14c1fe962fc5"/>
+</launchConfiguration>
